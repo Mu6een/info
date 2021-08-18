@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background:#E4F9F5;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #594f8d;
+  border-bottom: 1px solid rgba(0,0,0,0.02);
+  border-top: 1px solid rgba(0,0,0,0.03);
+}
+
+.wrapper .sidebar ul li a{
+  color: #66BFBF;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color:	#F9F9F9;
+}
+
+.wrapper .sidebar ul li:hover a{
+  color: #11999E;
+}
+
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background:#E4F9F5;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #66BFBF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .sidebar .social_media:hover a{
+  color: #11999E;
+}
+
+.content{
+  position: absolute;
+  width: 1166px;
+  left: 200px;
+  height:100%;
+  border: none;
+  background-color: #E4F9F5;
+}
